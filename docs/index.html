@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G Updater - Atualizações</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+  <header>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+      <svg id="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+      <svg id="moon-icon" style="display:none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+    </button>
+
+    <div class="header-container">
+      <div class="header-brand">
+        <img id="logo" src="logo.png" alt="Logo G Updater">
+        <h1 id="app-title">G Updater</h1>
+      </div>
+      <p>G updater — Atualizador de firmwares</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="update">
+      <h2>Software e download</h2>
+
+
+      <div class="info-item">
+        <span class="info-label">Versão atual</span>
+        <span class="info-value" id="current-version">Carregando...</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Publicado em</span>
+        <span class="info-value" id="last-update">Carregando...</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Canal</span>
+        <span class="info-value" id="release-status">Carregando...</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Build desktop</span>
+        <span class="info-value" id="recommended-compiler">Carregando...</span>
+      </div>
+
+      <div class="button-group">
+        <a id="pyinstaller-link" class="button" href="#" download>
+          <span>Baixar Windows (PyInstaller)</span>
+        </a>
+        <a id="apk-link" class="button secondary" href="#" download>
+          <span>Baixar Android (APK arm64)</span>
+        </a>
+        <a id="github-link" class="button secondary" href="#" target="_blank" rel="noopener noreferrer">
+          <span>Ver releases no GitHub</span>
+        </a>
+      </div>
+
+      <div id="update-status" class="status-banner">Carregando manifesto...</div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre o app</h2>
+      <ul class="feature-list">
+        <li>Atualização de firmware MAGX, ConnectCAN e Router. (ESP32)</li>
+        <li>Conexão Wi‑Fi direto (SN-) SPRT/SN ou Router (SPRT-)</li>
+        <li>Validação de dispositivo no Router.</li>
+        <li>Log ESP32 via mDNS.</li>
+      </ul>
+    </section>
+
+    <section id="checksums">
+      <h2>Integridade</h2>
+      <div class="info-item">
+        <span class="info-label">SHA256 Windows</span>
+        <span class="info-value" id="pyinstaller-sha">—</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">SHA256 Android</span>
+        <span class="info-value" id="apk-sha">—</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2026
+      <a href="https://github.com/gean96" target="_blank" rel="noopener noreferrer">Gean Ferreira</a>
+      · G updater
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
