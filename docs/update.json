@@ -2,8 +2,8 @@
   "version": "0.22.2",
   "release": true,
   "app_name": "G Updater",
-  "pyinstaller_download_url": "https://github.com/geanferreira96/CC_Tools-mirror/releases/download/v0.22.2-release/ConnectCanTool-0.22.2.zip",
-  "apk_arm64_download_url": "https://github.com/geanferreira96/CC_Tools-mirror/releases/download/v0.22.2-release/app-arm64-v8a-release.apk",
+  "pyinstaller_download_url": "https://github.com/geanferreira96/CC_Tools-mirror/releases/download/First/Gupdater.exe",
+  "apk_arm64_download_url": "https://github.com/geanferreira96/CC_Tools-mirror/releases/download/First/app-arm64-v8a-release.apk",
   "nuitka_download_url": "",
   "compiler": "pyinstaller",
   "beta_users": "",
@@ -11,5 +11,5 @@
   "apk_sha256": "",
   "nuitka_sha256": "",
   "github_release": "https://github.com/geanferreira96/CC_Tools-mirror/releases/latest",
-  "updated_at": "2026-06-25T12:00:00Z"
+  "updated_at": "2026-07-01T12:00:00Z"
 }
