@@ -6,7 +6,7 @@ Espelho GitHub Pages do **G Updater** (ConnectCanTools) para distribuição de v
 
 Após configurar GitHub Pages na branch `main` / pasta `/docs`:
 
-**https://geanferreira96.github.io/CC_Tools-mirror/**
+**https://gean96.github.io/CC_Tools-mirror/**
 
 ## Arquivos principais
 
