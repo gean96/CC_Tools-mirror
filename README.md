@@ -1,4 +1,4 @@
-# CC_Tools-mirror
+# G Updater
 
 Espelho GitHub Pages do **G Updater** (ConnectCanTools) para distribuição de versões e manifesto de atualização.
 
@@ -48,11 +48,4 @@ Após configurar GitHub Pages na branch `main` / pasta `/docs`:
 }
 ```
 
-## Teste local
 
-```bash
-cd docs
-python -m http.server 8080
-```
-
-Abra `http://localhost:8080` e confira se `update.json` é carregado.
