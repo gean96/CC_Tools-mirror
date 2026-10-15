@@ -1,15 +1,15 @@
 {
-  "version": "0.25.0",
+  "version": "0.25.1",
   "release": true,
   "app_name": "G Updater",
-  "pyinstaller_download_url": "https://github.com/gean96/CC_Tools-mirror/releases/download/0.25.0/ConnectCanTool-0.25.0.zip",
-  "apk_arm64_download_url": "https://github.com/gean96/CC_Tools-mirror/releases/download/0.25.0/app-arm64-v8a-release.apk",
+  "pyinstaller_download_url": "https://github.com/gean96/CC_Tools-mirror/releases/download/0.25.1/ConnectCanTool-0.25.1.zip",
+  "apk_arm64_download_url": "https://github.com/gean96/CC_Tools-mirror/releases/download/0.25.1/app-arm64-v8a-release.apk",
   "nuitka_download_url": "",
   "compiler": "pyinstaller",
   "beta_users": "",
-  "pyinstaller_sha256": "sha256:9e107e639979a5b936dc9c8b99b932ce4bce23b892b9e58b001e542254cfb942",
-  "apk_sha256": "sha256:9601619b76495f8030f4c0bb5fa35050fb06b1a34a8e2e1c8bf4c208ce060efa",
+  "pyinstaller_sha256": "sha256:7a6962f0d8aeade87b344c7182d911c6256db384f2d3fd99b933c52669aecb25",
+  "apk_sha256": "sha256:ffa440caff26b907e2e1c0668836ed1c35b22e1e2378958539019a0452c7a153",
   "nuitka_sha256": "",
   "github_release": "https://github.com/gean96/CC_Tools-mirror/releases/latest",
-  "updated_at": "2026-09-23T20:33:01Z"
+  "updated_at": "2026-10-15T20:02:12Z"
 }
